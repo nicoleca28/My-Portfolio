@@ -1,6 +1,13 @@
-.content{
-	color:teal;
+.content p{
+	color:deepskyblue;
 }
-.goals{
+.content ul{
 	color:magenta;
+}
+.content img{
+	height:200px;
+	width:360px;
+}
+.content p, ul{
+	font-size: 17px;
 }
