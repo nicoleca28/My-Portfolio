@@ -1,13 +1,43 @@
-.content p{
+.content {
 	color:deepskyblue;
 }
-.content ul{
-	color:magenta;
+.content p, ul{
+	font-size: 17px;
 }
 .content img{
 	height:200px;
 	width:360px;
 }
-.content p, ul{
-	font-size: 17px;
+
+.content h2{
+	color:black;
+}
+.content {
+	color:deepskyblue;
+	border: 2px solid;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 25px;
+	display: flex;
+	flex-direction: row;
+}
+.nav {
+	width:50%;
+	border: 2px solid;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.flex{
+	height: 50vh;
+	width: 50vh;
+	border: 2px solid;	
+	display:flex;
+	flex-direction: row;
+}
+.flexe{
+	width: 30%;
+	height: 30%;
+	border: 2px dotted;
 }
